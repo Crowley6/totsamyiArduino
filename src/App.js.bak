@@ -1,0 +1,46 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import './App.css';
+import moduleCSS from './App.module.css';
+import Info from './InfoAboutThisProject/Info';
+import MainContainer from './Main/MainContainer';
+import Platform from './Platform/Platform';
+import Projects from './Projects/Projects';
+import NotFound from './NotFound/Page404';
+
+let MRouters = (props) => {
+  return (
+    <a className={moduleCSS.RouterClick} href={props.url} >{props.name}</a>
+  )
+}
+
+const App = (props) => {
+  let MapRouters = props.store.MainData.RouterBtns.map(m => <MRouters url={m.url} name={m.name} flag={m.flag} />);
+
+  return (
+    <BrowserRouter>
+      <div className='body'>
+        <div className='body_header' id='b1'>
+          <div className='body_header_border_img' width='40px' height='40px' />
+          <div className='body_header_border'>
+            <p className='body_header_border_logo' style={{cursor: "pointer"}} onClick={() => window.location.href = "/"}></p>
+            <p className='body_header_border_line'></p>
+            <a href='/' className='body_header_border_name'>ENGINEER</a>
+          </div>
+          <div className='body_header_router'>
+            {MapRouters}
+          </div>
+        </div>
+
+        <Routes>
+          <Route path='/' element={<MainContainer />} />,
+          <Route path='/Projects' element={<Projects store={props.store} />} />
+          <Route path='/Platform' element={<Platform />} />
+          <Route path='/Info' element={<Info />} />
+          <Route path='*' element={<NotFound />}/>
+        </Routes>
+      </div>
+    </BrowserRouter>
+  );
+}
+
+export default App;

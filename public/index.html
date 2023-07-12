@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta
+      name="description"
+      content="Ищите проекты для вашей платформы Arduino? Наш сайт содержит множество увлекательных проектов, которые вы можете создать с помощью Arduino. От начинающих до продвинутых, у нас есть проекты для всех. Ознакомьтесь с нашей библиотекой проектов Arduino прямо сейчас."
+    >
+    <meta name="keywords" content="Arduino проекты, Arduino идеи, уроки Arduino, Arduino библиотеки, Arduino датчики, Arduino микроконтроллеры, Arduino программирование, DIY проекты с Arduino, Arduino для начинающих, Arduino для продвинутых, инженерия, проектирования">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <title>Arduino Projects</title>
+    <meta property="og:title" content="Arduino Projects">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Ищите проекты для вашей платформы Arduino? Наш сайт содержит множество увлекательных проектов, которые вы можете создать с помощью Arduino. От начинающих до продвинутых, у нас есть проекты для всех. Ознакомьтесь с нашей библиотекой проектов Arduino прямо сейчас.">
+    <meta property="og:image" content="https://it-arduino.ru/static/media/Arduino.16dedf2092fe3dd8e3e4.png">
+    <meta property="og:url" content="https://it-arduino.ru/">
+    <meta property="og:site_name" content="Arduino Projects">
+    <meta name="twitter:card" content="summary_large_image">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PERGL9YQNQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-PERGL9YQNQ');
+    </script>
+    <script>
+      // Initialize the agent at application startup.
+      const fpPromise = import('https://it-arduino.ru/SRpZfNrEydlzXoLr/BkGd7ZgATawvctXx?apiKey=smiPcyEhkmJkQYzqz30u')
+              .then(FingerprintJS => FingerprintJS.load({
+                region: "eu",
+                endpoint: "https://it-arduino.ru/SRpZfNrEydlzXoLr/iFAAXDJ8jaj1kCDY?region=eu"
+              }))
+
+      // Get the visitor identifier when you need it.
+      fpPromise
+              .then(fp => fp.get())
+              .then(result => {
+                // This is the visitor identifier:
+                const visitorId = result.visitorId
+                console.log(visitorId)
+              })
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(93619650, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true
+      });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/93619650" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.<br>
+      Вам необходимо включить JavaScript для просмотра и работы с данным сайтом</noscript>
+    <div id="root"></div>
+  </body>
+</html>

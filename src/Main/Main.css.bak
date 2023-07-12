@@ -1,0 +1,405 @@
+* {
+    box-sizing: border-box;
+}
+
+.box_engineer {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 1080px;
+    padding: 400px 0;
+}
+
+.engineer {
+    position: relative;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    width: 100%;
+    min-width: 1080px;
+    max-width: 2140px;
+    box-sizing: border-box;
+    padding: 0 0 0 135px;
+}
+
+.engineer a {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76px;
+    background: radial-gradient(77.08% 3021.55% at 5.56% 49.28%, #E4E9FC 0%, #B69CF7 89.93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.engineer p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7E7B8E;
+}
+
+.engineer_span {
+    margin-top: -13px;
+    font-size: 25px;
+}
+
+.details {
+    position: relative;
+    width: 100%;
+    min-width: 1080px;
+    height: 684px;
+    background: #242230;
+    box-shadow: 0 -25px 0 #D6D2FA, 0 25px 0 #D6D2FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details_tinkercad {
+    position: relative;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.details_tinkercad_1 {
+    position: relative;
+    width: 351px;
+    height: 351px;
+    background: url(../Pictures/Tinkercad.png);
+    border-radius: 85px;
+}
+
+.details_tinkercad_2 {
+    position: relative;
+    width: 653px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45px;
+    text-align: right;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.details_tinkercad_3 {
+    position: relative;
+    width: 653px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45px;
+    text-align: right;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(182, 156, 247, 1);
+}
+
+.details_tinkercad_4 {
+    position: relative;
+    width: 653px;
+    font-family: 'Abhaya Libre Medium', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #7E7B8E;
+}
+
+.arduino {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 1080px;
+    top: 25px;
+    height: 1100px;
+    background: url(../Pictures/Arduino.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: normal;
+}
+
+.arduino_box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1940px;
+    padding: 0 0 0 135px;
+    top: 275px;
+    position: relative;
+
+}
+
+.arduino_container {
+    max-width: 437px;
+    height: 515px;
+    background: #D6D2FA;
+    border-radius: 10px;
+    padding: 0 0 0 27px;
+    box-sizing: border-box;
+}
+
+.arduino_container_out {
+    position: relative;
+    box-sizing: border-box;
+    height: 486px;
+    background: #554B79;
+    border-radius: 10px 200px 10px 10px;
+}
+
+.arduino_container_out_name {
+    position: relative;
+    padding: 0 0 0 27px;
+    top: 48px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76px;
+    background-image: linear-gradient(45deg, rgba(228, 233, 252, 1), rgba(182, 156, 247, 1) 40%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin: 0;
+}
+
+.arduino_container_out_about {
+    position: relative;
+    top: 28px;
+    padding: 0 40px 0 27px;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+
+.examplearduino {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 1080px;
+    width: 100%;
+    background: #554B79;
+    box-shadow: 0 -25px 1px #D6D2FA;
+    padding: 100px 0 0 0;
+    box-sizing: border-box;
+}
+
+.examplearduino a {
+    position: relative;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.examplearduino_img {
+    position: relative;
+    filter: drop-shadow(0px 10px 6px #242230);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0 0 0;
+    box-sizing: border-box;
+}
+
+.examplearduino_img_item {
+    position: relative;
+    border-radius: 10px;
+    margin: 15px;
+    transition: 0.15s;
+}
+
+.examplearduino_img_item:hover {
+    transform: scale(107%);
+}
+
+.AboutPlatformFooter {
+    min-width: 100%;
+    height: 484px;
+    left: 0;
+    background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url(../Pictures/AboutPFooter.png) no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterText {
+    font-family: 'Abhaya Libre Medium', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto 0;
+}
+
+.FooterText>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.telegram {
+    background: url(../Pictures/telegram.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+
+}
+
+.youtube {
+    background: url(../Pictures/youtube.png) no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width:380px) {
+    .details_tinkercad_1 {
+        width: 250px;
+        background-color: cover;
+        background-position: center;
+    }
+
+    .box_details {
+        height: 100%;
+
+    }
+}
+
+@media screen and (max-width:1080px) {
+
+    .box_engineer {
+        padding: 0;
+
+    }
+
+    .engineer {
+        text-align: center;
+        padding: 150px 0;
+        min-width: auto;
+    }
+
+    .engineer a {
+        font-size: 40px;
+    }
+
+    .engineer p {
+        font-size: 20px;
+    }
+
+    .box_engineer {
+        height: 600px;
+    }
+    .box_details {
+        position: relative;
+    }
+    .details {
+        flex-direction: column;
+        text-align: center;
+        min-width: auto;
+        height: 100%;
+        padding: 60px 0 40px 0;
+    }
+
+    .details_tinkercad a,
+    .details_tinkercad p {
+        text-align: center;
+    }
+    .details_tinkercad {
+        height: auto;
+        padding: 25px 0 0 0;
+    }
+    .details_tinkercad_2 {
+        font-size: 28px;
+        width: auto;
+        min-width: 250px;
+    }
+
+    .details_tinkercad_3 {
+        font-size: 28px;
+        width: auto;
+    }
+
+    .details_tinkercad_4 {
+        font-size: 16px;
+        width: auto;
+    }
+
+    .arduino {
+        min-width: auto;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .arduino_box {
+        padding: 0;
+        width: 100%;
+    }
+
+    .arduino_container {
+        min-width: 200px;
+        margin: 0 auto;
+        max-width: 377px;
+        min-height: max-content;
+        height: min-content;
+    }
+
+    .arduino_container_out {
+        min-width: 200px;
+        float: right;
+        min-height: max-content;/*
+        max-height: 700px;*/
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .arduino_container_out_name {
+        font-size: 50px;
+        width: min-content;
+        height: min-content;
+        padding: 0 0 0 15px;
+        top: 23px;
+    }
+
+    .arduino_container_out_about {
+        font-size: 16px;
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 0 33px 0 15px;
+        top: 3px;
+    }
+
+    .examplearduino {
+        min-width: auto;
+    }
+
+    .examplearduino_img_item {
+        min-width: 240px;
+        min-height: 160px;
+        max-height: 200px;
+        max-width: 280px;
+    }
+
+}

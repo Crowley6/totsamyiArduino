@@ -1,0 +1,438 @@
+@font-face {
+    font-family: 'Abhaya Libre Medium';
+    src: url(../Fonts/abhayalibre_medium.ttf) format("woff2");
+}
+
+.infoHead {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoHeadH1 {
+    position: relative;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 57px;
+    background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+/*
+.infoHeadImg {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 450px;
+}
+
+.infoHeadImg img {
+    position: relative;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px grey;
+}*/
+
+.ismain {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 250px;
+    width: 100%;
+}
+
+/*.img_projects {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.68);
+    z-index: 3;
+    border-radius: 50%;
+    padding: 12.5px;
+    box-sizing: border-box;
+}*/
+
+
+.img_projects {
+    z-index: 1;
+    width: 700px;
+    height: 450px;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+
+.infoHeadLNF {
+    position: relative;
+    margin: 100px 0;
+    width: 195px;
+    height: 45px;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.InfoAboutProject {
+    position: relative;
+    width: 100%;
+    /*height: 3049px;*/
+    background: #554B79;
+    padding: 145px 0 0 0;
+}
+
+.infoAbout {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoAboutH1 {
+    text-align: center;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.infoAboutImg {
+    margin: 70px 0;
+    position: relative;
+    width: 960px;
+}
+
+.InfoAboutModules {
+    display: flex;
+    position: relative;
+}
+
+.IAM1 {
+    margin: 0 25px;
+    position: relative;
+    width: 447px;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.IAM1 span {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.IAM2 {
+    margin: 0 25px;
+    padding: 25px;
+    position: relative;
+    width: 470px;
+    height: min-content;
+    background: #D6D2FA;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #242230;
+    box-sizing: border-box;
+}
+
+.infoAWCCode {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 85px 0 0 0;
+}
+
+.infoAWCH1 {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.infoAWCCode iframe {
+    position: relative;
+    width: 963px;
+    height: 796px;
+    background: #D6D2FA;
+}
+
+.infoAWCText {
+    position: relative;
+    padding: 30px 0 0 0;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.infoAWCVideo {
+    position: relative;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #554B79;
+}
+
+#ytplayer {
+    max-width: 100%;
+}
+
+.infoFooter {
+    margin-top: 38.8px;
+    position: relative;
+    min-width: 100%;
+    min-height: 484px;
+    background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url(../Pictures/AboutPFooter.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterText {
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto 0;
+}
+
+.FooterText>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.telegram {
+    background: url(../Pictures/telegram.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+
+}
+
+.youtube {
+    background: url(../Pictures/youtube.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width:1080px) {
+    .infoAboutImg {
+        width: 100%;
+    }
+
+    .InfoAboutModules {
+        width: min-content;
+        flex-wrap: wrap;
+    }
+
+    .infoAWCCode iframe {
+        width: auto;
+    }
+
+    .IAM1 {
+        width: auto;
+        margin: 0;
+        min-width: 200px;
+    }
+
+    .IAM1 span {
+        text-align: center;
+    }
+
+    .IAM2 {
+        width: auto;
+        margin: 0;
+        min-width: 200px;
+        padding: 20px;
+        height: min-content;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .infoHead {
+        width: 280px;
+    }
+
+    .infoAWCCode iframe {
+        max-width: 280px;
+    }
+
+    .InfoAboutProject {
+        width: 280px;
+    }
+}
+
+
+.infoHeadImg {
+    color: wheat;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-wrapper ul {
+    min-width: 100%;
+}
+
+.slider-wrapper ul li {
+    display: flex;
+    min-width: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+.slider-wrapper ul li div {
+    min-width: 100%;
+}
+
+.Carousel {
+}
+
+.iimain .Carousel {
+
+    display: flex;
+}
+
+
+.carousel {
+    display: none;
+}
+
+.carousel-slider {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.carousel-slider p {
+    text-align: center;
+}
+
+.carousel-slider button {
+    color: wheat;
+    margin: 0;
+}
+
+.carousel-slider button::after {
+
+}
+
+.carousel-slider ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.carousel-slider ul li div {
+    width: 100%;
+    display: flex;
+    max-height: 400px;
+    justify-content: center;
+}
+
+.control-next {
+    background-image: url('../Pictures/strl1.svg');
+    height: 35px;
+    width: 35px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px #000000;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    transform: translateY(150%) rotate(180deg);
+}
+.control-next:active{
+    box-shadow: none;
+}
+
+.control-prev{
+    background-color: none;
+    background-image: url('../Pictures/strl1.svg');
+    height: 35px;
+    width: 35px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px #000000;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    transform: translateY(150%);
+    z-index: 1;
+}
+.control-prev:active{
+    box-shadow: none;
+}
+@media screen and (min-width:1080px) {
+    .infoHeadImg {
+        width: 1080px;
+    }
+    
+}
+@media screen and (max-width:1080px) {
+    .img_projects {
+        min-width: 100%;
+        height: auto;
+    }
+    .slide{
+        min-width: 100%;
+        height: auto;
+    }
+    .Carousel{
+        min-width: 100%;
+        height: auto;
+    }
+}

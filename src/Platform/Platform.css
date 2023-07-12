@@ -1,0 +1,365 @@
+@font-face {
+    font-family: 'Abhaya Libre Medium';
+    src: url(../Fonts/abhayalibre_medium.ttf) format("woff2");
+}
+
+.About1 {
+    position: relative;
+    width: 100%;
+    min-width: 1080px;
+    max-width: 2140px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    padding: 300px 0 0 135px;
+    box-sizing: border-box;
+    height: 1080px;
+    box-sizing: border-box;
+}
+
+.AboutContent {
+    position: relative;
+    width: 370px;
+    height: 181px;
+}
+
+.Ard {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76px;
+    background: radial-gradient(77.08% 3021.55% at 5.56% 49.28%, #E4E9FC 0%, #B69CF7 89.93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.ArdOpisanie {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7E7B8E;
+}
+
+.claxes {
+    position: relative;
+    width: 666.99px;
+    height: 610.06px;
+    background-image: url(../Pictures/claxes.svg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.AboutBack {
+    position: relative;
+    background: url(../Pictures/AboutBackImg.png);
+    width: 100%;
+    min-width: 1080px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 0 135px;
+}
+
+.AboutBackInfo {
+    position: relative;
+    width: 459px;
+    height: 100%;
+    padding: 132px 0;
+    box-sizing: border-box;
+}
+
+.AboutBackInfoI1 {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    color: #554B79;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.AboutBackInfoI2 {
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #242230;
+}
+
+.AboutBackInfo2 {
+    width: 655.99px;
+}
+
+.AboutPlatform {
+    position: relative;
+    width: 100%;
+    min-width: 1080px;
+    box-sizing: border-box;
+    left: 0px;
+    background: #554B79;
+}
+
+.PlatformInfo {
+    position: relative;
+    width: 100%;
+    min-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    padding: 160px 0;
+}
+
+.PlatformInfo1 {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    align-self: center;
+}
+
+.PlatformInfo2 {
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    color: #FFFFFF;
+    align-self: center;
+    height: 124px;
+    width: 1000px;
+    padding: 19px 0;
+}
+
+.PlatformElipse {
+    position: relative;
+    width: 100%;
+    min-width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.PlatformElipse>div {
+    position: relative;
+    width: 300px;
+    margin: 0 50px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.PlatformElipseImg {
+    position: relative;
+    height: 200px;
+    margin: 0 68.25px;
+    box-sizing: border-box;
+}
+
+.PEI1 {
+    background: url(../Pictures/lowsales.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.PEI2 {
+    background: url(../Pictures/lowsales2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.PEI3 {
+    background: url(../Pictures/lowsales3.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.PEI4 {
+    background: url(../Pictures/lowsales4.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.PEI5 {
+    background: url(../Pictures/lowsales5.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.PlatformElipseIext {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 35px;
+    background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    width: min-content;
+    margin: 0 auto;
+}
+
+.PlatformElipseIext2 {
+    margin: 13px auto;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 300px;
+}
+
+.footer_img {
+    position: absolute;
+    width: 80%;
+    height: 484px;
+    background: linear-gradient(269.99deg, #242230 10.47%, rgba(36, 34, 48, 0) 200.99%), url(../Pictures/footerImg.png);
+    background-repeat: no-repeat;
+}
+
+.AboutPlatformFooter {
+    min-width: 100%;
+    min-height: 484px;
+    background: linear-gradient(to left, #242230 55%, rgba(36, 34, 48, 0) 99.99%), url(../Pictures/AboutPFooter.png) no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterText {
+    font-family: 'Abhaya Libre Medium', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto 0;
+}
+
+.FooterText>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.telegram {
+    background: url(../Pictures/telegram.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+
+}
+
+.youtube {
+    background: url(../Pictures/youtube.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width:1080px) {
+    .About1 {
+        min-width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+        height: 800px;
+        padding: 20px 0;
+    }
+    .ArdOpisanie {
+        max-width: 280px;
+    }
+    .AboutContent {
+        width: auto;
+    }
+
+    .claxes {
+        min-width: 200px;
+        width: /*280px;*/ 270px;
+        background-size: 100%;
+        margin: 0 auto;
+        height: 400px;
+    }
+
+    .AboutBack {
+        min-width: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .AboutBackInfo {
+        width: auto;
+    }
+
+    .AboutBackInfoI1 {
+        text-align: center;
+        padding: 0 0 50px 10px;
+    }
+
+    .AboutBackInfoI2 {
+        padding: 0 20px;
+    }
+
+    .AboutPlatform {
+        min-width: auto;
+    }
+
+    .PlatformInfo {
+        min-width: auto;
+        padding: 100px 0;
+    }
+
+    .PlatformInfo1 {
+        font-size: 41px;
+    }
+
+    .PlatformInfo2 {
+        width: 100%;
+        font-size: 26px;
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    .PlatformElipse {
+        min-width: auto;
+    }
+
+    .PlatformElipse>div {
+        margin: 0;
+        min-width: 200px;
+        width: 100%;
+    }
+
+    .PlatformElipseImg {
+        width: auto;
+        background-size: contain;
+        background-position: center;
+    }
+}

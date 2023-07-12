@@ -1,0 +1,378 @@
+.Instruction {
+    max-width: 1440px;
+    position: relative;
+    margin: 0 auto;
+
+    .bgInstr {
+        width: 100%;
+    }
+
+    .InstAboutPlatformFooter {
+        position: absolute;
+    }
+
+    .Instruction_01 {
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            margin: 70px 0;
+            font-family: 'Abhaya Libre ExtraBold';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 57px;
+            background: radial-gradient(33.84% 1326.63% at 1% 78.26%, #E4E9FC 0%, #B69CF7 66.58%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+
+
+        div {
+            margin: 80px 0 0 0;
+
+            h4 {
+                background: #D6D2FA;
+                width: 150px;
+                height: 89px;
+                font-family: 'Abhaya Libre Medium';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 64px;
+                line-height: 39.47%;
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #554B79;
+                padding: 0 0 0 30px;
+                border-radius: 0 50px 50px 0;
+            }
+
+            p {
+                font-family: 'Abhaya Libre Medium';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 38px;
+                color: #FFFFFF;
+                width: 373px;
+            }
+
+            a {
+                font-family: 'Abhaya Libre Medium';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 38px;
+                text-decoration-line: underline;
+                color: #B69CF7;
+            }
+        }
+
+        img {
+            width: 700px;
+            height: 430px;
+            margin: 315px 0;
+        }
+    }
+
+    .Instruction_02 {
+        display: flex;
+        justify-content: space-between;
+        margin: 100px 0;
+
+        div {
+            h4 {
+                background: #D6D2FA;
+                width: 150px;
+                height: 89px;
+                font-family: 'Abhaya Libre Medium';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 64px;
+                line-height: 39.47%;
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #554B79;
+                padding: 0 0 0 50px;
+                border-radius: 50px 0 0 50px;
+                float: right;
+            }
+
+            p {
+                font-family: 'Abhaya Libre Medium';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 38px;
+                color: #FFFFFF;
+                width: 400px;
+                margin: 200px 0;
+            }
+        }
+
+
+        img {
+            width: 500px;
+            height: 430px;
+        }
+    }
+
+    .Instruction_03 {
+        display: flex;
+        justify-content: space-between;
+        div {
+            h4 {
+                background: #D6D2FA;
+                width: 150px;
+                height: 89px;
+                font-family: 'Abhaya Libre Medium';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 64px;
+                line-height: 39.47%;
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                font-feature-settings: 'pnum' on, 'lnum' on;
+                color: #554B79;
+                padding: 0 0 0 50px;
+                border-radius: 50px 0 0 50px;
+                float: right;
+            }
+
+            p {
+                font-family: 'Abhaya Libre Medium';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 38px;
+                color: #FFFFFF;
+                width: 400px;
+                margin: 200px 0;
+            }
+        }
+
+
+        img {
+            width: 730px;
+            height: 430px;
+        }
+    }
+
+    .Instruction_04 {
+        display: flex;
+        justify-content: space-between;
+        margin: 100px 0;
+
+        h4 {
+            background: #D6D2FA;
+            width: 150px;
+            height: 89px;
+            font-family: 'Abhaya Libre Medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 64px;
+            line-height: 39.47%;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #554B79;
+            padding: 0 0 0 30px;
+            border-radius: 0 50px 50px 0;
+        }
+
+        p {
+            font-family: 'Abhaya Libre Medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #FFFFFF;
+            width: 373px;
+        }
+    }
+
+    .Instruction_05 {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0 125px 0;
+
+        h4 {
+            background: #D6D2FA;
+            width: 150px;
+            height: 89px;
+            font-family: 'Abhaya Libre Medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 64px;
+            line-height: 39.47%;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #554B79;
+            padding: 0 0 0 30px;
+            border-radius: 0 50px 50px 0;
+        }
+
+        p {
+            font-family: 'Abhaya Libre Medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #FFFFFF;
+            width: 373px;
+        }
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .Instruction {
+        .Instruction_02 {
+            flex-direction: column;
+            div {
+                p {
+                    max-width: 100%;
+                    text-align: center;
+                    margin: 0 auto;
+                    width: 100%;
+                    padding: 50px 0;
+                }
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                margin: 0px 0;
+            }
+        }
+        .Instruction_03 {
+            flex-direction: column;
+            div {
+                p {
+                    max-width: 100%;
+                    text-align: center;
+                    margin: 0 auto;
+                    width: 100%;
+                    padding: 50px 0;
+                }
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                margin: 0px 0;
+            }
+        }
+        .Instruction_04 {
+            flex-direction: column;
+            div {
+                p {
+                    max-width: 100%;
+                    text-align: center;
+                    margin: 0 auto;
+                    width: 100%;
+                    padding: 50px 0;
+                }
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                margin: 0px 0;
+            }
+        }
+        .Instruction_05 {
+            flex-direction: column;
+            div {
+                p {
+                    max-width: 100%;
+                    text-align: center;
+                    margin: 0 auto;
+                    width: 100%;
+                    padding: 50px 0;
+                }
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                margin: 0px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1350px) {
+    .Instruction {
+        .Instruction_01 {
+            flex-direction: column;
+            div {
+                p {
+                    max-width: 100%;
+                    text-align: center;
+                    margin: 0 auto;
+                    width: 100%;
+                    padding: 50px 0;
+                }
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                margin: 0px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .Instruction {
+        max-width: 100%;
+
+        .Instruction_01 {
+            flex-direction: column;
+            width: 100%;
+            position: relative;
+
+            h1 {
+                font-size: 26px;
+                margin: 35px 0;
+                line-height: 41px;
+            }
+
+            div {
+                h4 {
+                    margin: 50px 0;
+                    max-width: 100%;
+                    width: 100px;
+                    height: 45px;
+                    padding: 0 0 0 15px;
+                    font-size: 42px;
+                }
+
+                p {
+                    max-width: 100%;
+                    font-size: 16px;
+                    line-height: 119.47%;
+                }
+
+                a {
+                    font-size: 13px;
+                }
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                margin: 0 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Abhaya Libre Medium';
+    src: url(../Fonts/abhayalibre_medium.ttf) format("woff2");
+}
+
+.ProjectsBody {
+    position: relative;
+    width: 100%;
+    min-width: 1080px;
+    left: 0px;
+    background: url(../Pictures/ProjectBody.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1180px;
+    padding: 230px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.ProjectsBodyTextH1 {
+    position: relative;
+    padding: 0 130px;
+    width: 100%;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76px;
+    background: radial-gradient(97.57% 3824.93% at 1% 78.26%, #9C8FC8 0%, #9C8FC8 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    box-sizing: border-box;
+}
+
+.ProjectsBodyText {
+    position: relative;
+    padding: 0 130px;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #363050;
+    box-sizing: border-box;
+}
+
+.ProjectsBodyText2 {
+    position: relative;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #363050;
+    padding: 0 0 600px 130px;
+    box-sizing: border-box;
+}
+
+.AllProjects {
+    position: relative;
+    width: 100%;
+    min-width: 1080px;
+    left: 0px;
+    background: #554B79;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Projects {
+    width: 470px;
+    height: 660px;
+    background: linear-gradient(180deg, #242230 0%, #D6D2FA 100%);
+    box-shadow: 10px 10px 40px rgba(36, 34, 48, 0.67);
+    border-radius: 50px;
+    color: rgba(36, 34, 48, 1);
+    margin: 40px 10px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 347px 1fr 1fr 1fr;
+    padding: 20px 0 20px 0;
+    overflow: hidden;
+}
+
+.ProjectsImg {
+    width: 100%;
+    border-radius: 15px;
+    height: 347px;
+}
+
+.ProjectsTextH1 {
+    padding: 1.5% 3.5%;
+    width: 100%;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.ProjectsText {
+    padding: 1.5% 3.5%;
+    width: 100%;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.ProjectsButton {
+    justify-self: end;
+    margin-left: 3.5%;
+    position: relative;
+    bottom: 1px;
+    width: 175px;
+    height: 67.5px;
+    background: linear-gradient(180deg, #9C8FC8 0%, #242230 100%);
+    border-radius: 20px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F5F5F5;
+    justify-self: start;
+}
+
+.ProjectsFooter {
+    position: relative;
+    min-width: 100%;
+    width: 1080px;
+    min-height: 484px;
+    left: 0px;
+    background: #242230;
+    background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url(../Pictures/footerImg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterText {
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto 0;
+}
+
+.FooterText>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.telegram {
+    background: url(../Pictures/telegram.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+
+}
+
+.youtube {
+    background: url(../Pictures/youtube.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width:1080px) {
+    .ProjectsBody {
+        min-width: auto;
+        height: auto;
+        padding: 0;
+    }
+
+    .ProjectsBodyTextH1 {
+        padding: 115px 20px 30px 0;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .ProjectsBodyText {
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
+    .ProjectsBodyText2 {
+        padding: 0 20px;
+    }
+
+    .ProjectsBodyText2 ul {
+        padding: 0;
+        padding: 0 0 115px 0;
+    }
+
+    .ProjectsBodyText2 ul li {
+        list-style: none;
+    }
+
+    .ProjectsBodyText2 ul li::before {
+        content: '>> ';
+    }
+
+    .AllProjects {
+        min-width: auto;
+    }
+
+    .Projects {
+        width: 275px;
+        height: 380px;
+        grid-template-rows: 150px 20px 1fr 150px;
+        border-radius: 25px;
+        padding: 10px 0;
+    }
+    .ProjectsButton {
+        height: 50px;
+        width: 150px;
+        border-radius: 15px;
+    }
+    .ProjectsImg {
+        width: 100%;
+        max-height: 175px;
+    }
+}

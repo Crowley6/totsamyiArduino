@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'Abhaya Libre Medium';
+    src: url(../Fonts/abhayalibre_medium.ttf) format("woff2");
+}
+
+.ProjectsBody {
+    position: relative;
+    width: 100%;
+    min-width: 1080px;
+    left: 0px;
+    background: url(../Pictures/ProjectBody.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1180px;
+    padding: 230px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.ProjectsBodyTextH1 {
+    position: relative;
+    padding: 0 130px;
+    width: 100%;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76px;
+    background: radial-gradient(97.57% 3824.93% at 1% 78.26%, #9C8FC8 0%, #9C8FC8 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    box-sizing: border-box;
+}
+
+.ProjectsBodyText {
+    position: relative;
+    padding: 0 130px;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #363050;
+    box-sizing: border-box;
+}
+
+.ProjectsBodyText2 {
+    position: relative;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #363050;
+    padding: 0 0 600px 130px;
+    box-sizing: border-box;
+}
+
+.AllProjects {
+    position: relative;
+    width: 100%;
+    min-width: 1080px;
+    left: 0;
+    background: #554B79;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+
+.Projects {
+    width: 470px;
+    max-height: none;
+    background: linear-gradient(180deg, #242230 0%, #D6D2FA 100%);
+    box-shadow: 10px 10px 40px rgba(36, 34, 48, 0.67);
+    border-radius: 50px;
+    color: rgba(36, 34, 48, 1);
+    margin: 40px 10px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 20px 0;
+}
+
+.ProjectsImg {
+    width: 100%;
+    border-radius: 15px;
+    min-height: 200px;
+    max-height: 350px;
+}
+
+.ProjectsTextH1 {
+    padding: 1.5% 3.5%;
+    width: 100%;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+}
+
+.ProjectsText {
+    padding: 1.5% 3.5%;
+    width: 100%;
+    font-family: 'Abhaya Libre Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.ProjectsButton {
+    justify-self: end;
+    margin-left: 3.5%;
+    position: relative;
+    bottom: 1px;
+    width: 175px;
+    height: 67.5px;
+    background: linear-gradient(180deg, #9C8FC8 0%, #242230 100%);
+    border-radius: 20px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F5F5F5;
+    backdrop-filter: blur(15px);
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.ProjectsButton:hover {
+    box-shadow: 0 0 5px #9C8FC8, 0 0 15px #9C8FC8, 0 0 30px #9C8FC8,
+    0 0 60px #9C8FC8;
+}
+
+.ProjectsFooter {
+    position: relative;
+    min-width: 100%;
+    width: 1080px;
+    min-height: 484px;
+    left: 0;
+    background: #242230;
+    background: linear-gradient(269.99deg, #242230 4.47%, rgba(36, 34, 48, 0) 99.99%), url(../Pictures/footerImg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterText {
+    font-family: 'Abhaya Libre Medium', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto 0;
+}
+
+.FooterText>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.telegram {
+    background: url(../Pictures/telegram.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+
+}
+
+.youtube {
+    background: url(../Pictures/youtube.png) no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width:1080px) {
+    .ProjectsBody {
+        min-width: auto;
+        height: auto;
+        padding: 0;
+    }
+
+    .ProjectsBodyTextH1 {
+        padding: 115px 20px 30px 0;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .ProjectsBodyText {
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
+    .ProjectsBodyText2 {
+        padding: 0 20px;
+    }
+
+    .ProjectsBodyText2 ul {
+        padding: 0 0 115px 0;
+    }
+
+    .ProjectsBodyText2 ul li {
+        list-style: none;
+    }
+
+    .ProjectsBodyText2 ul li::before {
+        content: '>> ';
+    }
+
+    .AllProjects {
+        min-width: auto;
+    }
+
+}
+
+.flip {
+    position: relative;
+    box-shadow: #7e7b8e;
+}
+.flip > .front, .flip > .back {
+    display: block;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 0.5s;
+    transition-property: transform, opacity;
+}
+.flip > .front {
+    transform: rotateY(0deg);
+}
+.flip > .back {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(-180deg);
+}
+.flip:hover {
+    cursor: pointer;
+}
+.flip:hover > .front {
+    transform: rotateY(180deg);
+}
+.flip:hover > .back {
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+.flip.flip-vertical > .back {
+    transform: rotateX(-180deg);
+}
+.flip.flip-vertical:hover > .front {
+    transform: rotateX(180deg);
+}
+.flip.flip-vertical:hover > .back {
+    transform: rotateX(0deg);
+}
+.flip {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 1em;
+    width: 400px;
+}
+.flip > .front, .flip > .back {
+    display: block;
+    color: white;
+    width: inherit;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 220px;
+    padding: 1em 2em;
+    background: #313131;
+    border-radius: 10px;
+}
+.flip > .front p, .flip > .back p {
+    font-size: 0.9125rem;
+    line-height: 160%;
+    color: #999;
+}
+.text-shadow {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
+}

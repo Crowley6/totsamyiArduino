@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Abhaya Libre Medium';
+  src: url(./Fonts/abhayalibre_medium.ttf) format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  min-width: 1080px;
+  height: 1024px;
+  left: 0;
+  top: 0;
+}
+
+.body_header_border_img {
+  background: radial-gradient(99.27% 196.31% at 0.73% 1.07%, #242230 31.47%, #363150 68.6%);
+  position: fixed;
+  min-width: calc(100% + 15px);
+  min-height: calc(100% + 15px);
+  left: -15px;
+  top: -15px;
+}
+
+.body_header {
+  position: relative;
+  padding: 40px 135px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.body_header_border {
+  position: relative;
+  width: 50%;
+  max-width: 1940px;
+  display: flex;
+}
+
+
+
+.body_header_border_logo {
+  position: relative;
+  width: 53.28px;
+  height: 51px;
+  background: url(logo.png);
+  margin: -12px 0;
+}
+
+.body_header_border_line {
+  position: relative;
+  width: 48.57px;
+  height: 0px;
+  border: 2px solid #C6B8F8;
+  background-color: solid #C6B8F8;
+  transform: rotate(90deg);
+  margin: 12px 0;
+}
+
+.body_header_router{
+  min-width: max-content;
+}
+
+.body_header_border_name {
+  position: relative;
+  height: 29px;
+  font-family: 'Abhaya Libre Medium', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #C6B8F8;
+}
+
+
+
+@media screen and (max-width:1080px) {
+  .body {
+    min-width: auto;
+  }
+
+  .body_header {
+    flex-direction: column;
+    margin: 0 auto;
+    width: auto;
+    min-width: auto;
+    padding: 56px 0 0 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body_header_border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .body_header_border_line {
+    transform: rotate(0deg);
+  }
+
+  .body_header_border_logo {
+    margin: auto -15px;
+  }
+
+  .body_header_router {
+    display: flex;
+    flex-direction: column;
+    min-width: none;
+    text-align: center;
+    width: 100%;
+  }
+}
